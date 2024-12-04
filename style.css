@@ -1,0 +1,98 @@
+/* Umum */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e5d1f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Kontainer */
+.container {
+  background-color: #d5b3fc;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  text-align: center;
+}
+
+/* Judul */
+h1 {
+  color: #4d015c;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Matriks */
+.matrix {
+  margin-bottom: 20px;
+}
+
+.matrix-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.input {
+  width: 100px;
+  padding: 10px;
+  margin: 5px;
+  font-size: 16px;
+  text-align: center;
+  border: 2px solid #df05fc;
+  border-radius: 5px;
+}
+
+.input:focus {
+  border-color: #c941ff;
+}
+
+/* Tombol Operator */
+.operations {
+  margin-bottom: 20px;
+}
+
+.operation-btn {
+  padding: 10px 15px;
+  font-size: 20px;
+  margin: 5px;
+  background-color: #c464eb;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.operation-btn:hover {
+  background-color: #45a049;
+}
+
+/* Tombol Hitung */
+.calc-btn {
+  padding: 12px 20px;
+  font-size: 18px;
+  background-color: #ba73f3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.calc-btn:hover {
+  background-color: #1976d2;
+}
+
+/* Hasil */
+.result {
+  margin-top: 15px;
+}
+
+.result-title {
+  font-size: 20px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}

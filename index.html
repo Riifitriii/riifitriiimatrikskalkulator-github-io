@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kalkulator Matriks 2x2 NIM 242505025</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Kalkulator Matriks 2x2</h1>
+    <h1>Fitri Yani Permana</h1>
+
+
+    <!-- Matriks A -->
+    <div class="matrix">
+      <div class="matrix-title">Matriks A</div>
+      <input type="text" id="a11" class="input" placeholder="A11">
+      <input type="text" id="a12" class="input" placeholder="A12">
+      <input type="text" id="a21" class="input" placeholder="A21">
+      <input type="text" id="a22" class="input" placeholder="A22">
+    </div>
+
+    <!-- Operator -->
+    <div class="operations">
+      <button class="operation-btn" onclick="setOperation('+')">+</button>
+      <button class="operation-btn" onclick="setOperation('-')">-</button>
+      <button class="operation-btn" onclick="setOperation('x')">x</button>
+    </div>
+
+    <!-- Matriks B -->
+    <div class="matrix">
+      <div class="matrix-title">Matriks B</div>
+      <input type="text" id="b11" class="input" placeholder="B11">
+      <input type="text" id="b12" class="input" placeholder="B12">
+      <input type="text" id="b21" class="input" placeholder="B21">
+      <input type="text" id="b22" class="input" placeholder="B22">
+    </div>
+
+    <!-- Tombol Hitung -->
+    <button class="calc-btn" onclick="calculate()">Hitung</button>
+
+    <!-- Matriks Hasil -->
+    <div class="result">
+      <div class="result-title">Hasil</div>
+      <input type="text" id="r11" class="input" placeholder="R11" readonly>
+      <input type="text" id="r12" class="input" placeholder="R12" readonly>
+      <input type="text" id="r21" class="input" placeholder="R21" readonly>
+      <input type="text" id="r22" class="input" placeholder="R22" readonly>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
